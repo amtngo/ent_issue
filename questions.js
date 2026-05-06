@@ -2,7 +2,7 @@ const QUESTIONS = [
   {
     id: "gd_20260506",
 
-    topic: "지드래곤 해외 공연 의상 문구 논란",
+    topic: "지드래곤 공연 의상 논란",
 
     question: "지금 분위기, 오래 갈 것 같나요?",
 
