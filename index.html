@@ -191,7 +191,7 @@
 
   // 이미 선택한 경우
 
-  if(false){
+  if(localStorage.getItem(voteKey) === "yes"){
 
     optionsEl.innerHTML = `
       <div class="blocked">
@@ -226,7 +226,7 @@
 
     // 중복 방지 저장
 
-    // localStorage.setItem(voteKey, "yes");
+   localStorage.setItem(voteKey, "yes");
 
     // 버튼 잠금
 
